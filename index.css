@@ -1,0 +1,280 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 100vw;
+    height:100vh;
+    background-image:url(Layer\ 0.png);
+    background-image: cover;
+    background-repeat: no-repeat;
+    /* object-fit: cover; */
+}
+.body{
+    background-image: url(Top\ background.png);
+    background-size: cover;
+    color: white;
+    background-color:rgb(224, 232, 239);
+    /* rgb(220, 224, 227) */
+}
+.body1{
+    background-image: url(bg\ 2.png);
+    background-size: cover;
+    background-color: black;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-img{
+    width: 40%;
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.bar{
+    width: 70%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    /* justify-content: space-evenly; */
+}
+.bar > a{
+    text-decoration: none;
+    color: white;
+}
+.boost{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 40px;
+    max-width: 70%;
+    margin: auto;
+    margin-top: 5%;
+}
+.boost-text{
+    width: 50%;
+    margin-top: 5%;
+}
+.boost-text > h1{
+    font-size: 3rem;
+    color: white;
+}
+.boost-text{
+    position: relative;
+}
+
+.boost-text > button{
+    position: absolute;
+    left: 21px;
+    top: 265px;
+    width: 80px;
+    height:32px;
+    background-color: rgb(33, 33, 33);
+    border: none;
+    font-size: 17px;
+    color: yellowgreen;
+}
+.boost-img > img{
+    background-image: url(race-img1\ copy.png);
+    /* width: 60%; */
+}
+.blocks{
+    margin: 50px;
+    display: flex;
+    gap: 10px;
+    justify-content: center ;
+}
+.block{
+    width: 12px;
+    height: 12px;
+    background-color: yellow;
+    border-radius: 50% 80% / 80% 10%;
+    margin-bottom: 5rem;
+}
+.white-block{
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50% 80% / 80% 10%;
+}
+.info{
+    margin-left: 15%;
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    padding-bottom: 20px;
+
+}
+#yellowcard{
+    background-color: yellow;
+    width: 380px;
+    height: 250px;
+    color: black;
+}
+.card1{
+    display: flex;
+    flex-direction:column ;
+}
+.card-img{
+    position: relative;
+}
+.card-left{
+    position: absolute;
+    display: flex;
+    
+}
+.card-text{
+    width: 20%;
+    
+}
+#last{
+    margin-left: 30px;
+}
+.products{
+    /* margin-top: 5rem; */
+    text-align: center;
+    max-width: 70%;
+    margin: auto;
+    color: black;
+}
+.products > h1{
+    padding-top:5rem;
+}
+.product-card{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.performance{
+    padding-top: 5rem;
+    max-width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.performance-text{
+    padding-top: 5rem;
+    width: 40%;
+}
+/* .performance-img{
+    width: 60%;
+} */
+.performance-text > h2{
+    font-size: 2rem;
+}
+
+.performance-text > img{
+    position: relative;
+}
+.performance-text > button{
+    position: absolute;
+    top: 139.3rem;
+    left: 250px;
+    border: none;
+    background-color: white;
+    font-size: 1rem;
+}
+.performance2{
+    padding-top: 15rem;
+    max-width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.performance2 > .performance-text > button{
+    top: 176.5rem;
+    left: 800px;
+    border: none;
+    background-color:rgb(246, 162, 7);
+}
+.sign-up{
+    max-width: 70%;
+    margin: auto;
+    padding-top: 13rem;
+    display: flex;
+    color: white;
+    gap: 13rem;
+    padding-bottom: 10rem;
+}
+.sign-left{
+    width: 35%;
+}
+.sign-left > h3{
+    font-size: 2rem;
+}
+.sign-left > h2{
+    font-size: 3rem;
+    color: yellow;
+}
+.sign-right{
+    padding-top: 3rem;
+}
+.sign-right > .sign1img{
+    position: relative;
+}
+.sign-right > .button1{
+    position: absolute;
+    left: 53rem;
+    top: 201.2rem;
+    background-color: rgb(29,29,29);
+    border: none;
+    color: white;
+}
+
+.sign-right > .sign2img{
+    position: relative;
+}
+.sign-right > .button2{
+    position: absolute;
+    left: 66.8rem;
+    top: 201.2rem;
+    background-color: rgb(29, 29, 29);
+    border: none;
+    color: white;
+}
+
+.footer{
+    padding-top: 2rem;
+    background-image: url(Layer\ 0.png);
+    background-size: cover;
+    color: white;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    max-width: 20%;
+    margin-left: 2rem;
+}
+.box2{
+    max-width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.box2 > h3{
+    text-decoration: solid;
+}
+.box2 > p{
+    font-size:small;
+    cursor: pointer;
+}
+footer{
+    background-color: rgb(35, 35, 35);
+    padding-top: 10px;
+    text-align: center;
+    color:white;
+    height: 40px;
+}
+span{
+    color:yellow;
+}
